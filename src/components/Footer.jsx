@@ -4,15 +4,15 @@ import Frame11 from "../assets/images/Frame11.png";
 
 function Footer() {
   return (
-    <footer class="footer">
-      <div class="container">
-        <div class="footer__logo">
+    <footer className="footer">
+      <div className="container">
+        <div className="footer__logo">
           <img src={Frame10} alt="Accountancy Cloud" />
           <p>Your new finance team</p>
         </div>
-        <div class="footer__top">
-          <div class="footer__columns">
-            <div class="footer__column">
+        <div className="footer__top">
+          <div className="footer__columns">
+            <div className="footer__column">
               <h4>How it works</h4>
               <ul>
                 <li>
@@ -20,7 +20,7 @@ function Footer() {
                 </li>
               </ul>
             </div>
-            <div class="footer__column">
+            <div className="footer__column">
               <h4>What we do</h4>
               <ul>
                 <li>
@@ -40,7 +40,7 @@ function Footer() {
                 </li>
               </ul>
             </div>
-            <div class="footer__column">
+            <div className="footer__column">
               <h4>Who we help</h4>
               <ul>
                 <li>
@@ -57,7 +57,7 @@ function Footer() {
                 </li>
               </ul>
             </div>
-            <div class="footer__column">
+            <div className="footer__column">
               <h4>Resources</h4>
               <ul>
                 <li>
@@ -74,7 +74,7 @@ function Footer() {
                 </li>
               </ul>
             </div>
-            <div class="footer__column">
+            <div className="footer__column">
               <h4>Company</h4>
               <ul>
                 <li>
@@ -90,8 +90,8 @@ function Footer() {
             </div>
           </div>
         </div>
-        <div class="footer__bottom">
-          <div class="footer__contact">
+        <div className="footer__bottom">
+          <div className="footer__contact">
             <h4>Speak to us</h4>
             <p>
               Call <a href="tel:02045308432">020 4530 8432</a>
@@ -104,13 +104,13 @@ function Footer() {
             </p>
           </div>
         </div>
-        <div class="footer_bottom2">
-          <div class="footer__legal">
+        <div className="footer_bottom2">
+          <div className="footer__legal">
             <p>© Accountancy Cloud 2021</p>
             <a href="#privacy">Privacy Policy & Cookies</a>
             <a href="#terms">Terms of Service</a>
           </div>
-          <div class="footer__acca">
+          <div className="footer__acca">
             <img src={Frame11} alt="ACCA" />
           </div>
         </div>

@@ -11,12 +11,12 @@ import Frame9 from "../assets/images/Frame9.png";
 
 function Clients() {
   return (
-    <section class="clients">
-      <div class="container">
-        <div class="clients__text">
+    <section className="clients">
+      <div className="container">
+        <div className="clients__text">
           <p>Join 200+ amazing companies</p>
         </div>
-        <div class="clients__logos">
+        <div className="clients__logos">
           <img src={Frame1} alt="Frizzenti" />
           <img src={Frame2} alt="Very" />
           <img src={Frame3} alt="Feel" />

@@ -5,11 +5,11 @@ import Rectangle4 from "../assets/images/Rectangle4.png";
 
 function WhySwitch() {
   return (
-    <section class="why-switch">
-      <div class="container">
+    <section className="why-switch">
+      <div className="container">
         <h2>Why Switch?</h2>
-        <div class="features-grid">
-          <div class="feature-card">
+        <div className="features-grid">
+          <div className="feature-card">
             <img
               src={Rectangle2}
               alt="Powerful software icon"
@@ -21,7 +21,7 @@ function WhySwitch() {
               real-time management reports.
             </p>
           </div>
-          <div class="feature-card">
+          <div className="feature-card">
             <img
               src={Rectangle3}
               alt="Track cashflow icon"
@@ -32,7 +32,7 @@ function WhySwitch() {
               and cashflow, to ensure your business is performing at its best.
             </p>
           </div>
-          <div class="feature-card">
+          <div className="feature-card">
             <img
               src={Rectangle4}
               alt="Award winning support icon"
@@ -44,8 +44,8 @@ function WhySwitch() {
             </p>
           </div>
         </div>
-        <div class="cta-button">
-          <button class="btn btn--secondary">Discover what we do</button>
+        <div className="cta-button">
+          <button className="btn btn--secondary">Discover what we do</button>
         </div>
       </div>
     </section>
