@@ -1,13 +1,14 @@
 import React from "react";
 import Logo from "../assets/images/Frame.png";
 import Frame10 from "../assets/images/Frame10.png";
-
+import { Link } from "react-router-dom";
 function Header() {
   return (
     <header className="header">
       <div className="container header1">
         <div className="header__logo">
-          <img src={Logo} alt="Accountancy Cloud" />
+          <a href="/">
+          <img src={Logo} alt="Accountancy Cloud" /></a>
         </div>
         <nav className="header__nav">
           <ul className="header__nav-list">
