@@ -3,7 +3,7 @@ import CtaBanner from "./components/CtaBanner";
 import Footer from "./components/Footer";
 import Header from "./components/Header";
 import Hero from "./components/hero";
-import AcHub from "./components/Hub";
+import Hub from "./components/Hub";
 import PlansGrowth from "./components/PlansGrowth";
 import Statsection from "./components/Statsection";
 import WhySwitch from "./components/WhySwitch";
@@ -17,7 +17,7 @@ function App() {
       <WhySwitch />
       <PlansGrowth />
       <Clients />
-      <AcHub />
+      <Hub />
       <CtaBanner />
       <Footer />
     </div>

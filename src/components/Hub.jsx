@@ -2,7 +2,7 @@ import React from "react";
 import Rectangle8 from "../assets/images/Rectangle8.png";
 
 
-function AcHub() {
+function Hub() {
   return (
    <section className="ac-hub">
   <div className="container">
@@ -21,4 +21,4 @@ function AcHub() {
   );
 }
 
-export default AcHub;
+export default Hub;
